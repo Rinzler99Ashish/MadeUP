@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    background-image: url(./1325726.png);
+    background-size: cover;
+    height: 100vh;
+}
+.navv{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    transition: 200ms;
+    opacity: 0.5;
+}
+.navv:hover{
+    opacity: 1;
+    scale: 1.2;
+}
+#navvv{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+#men{
+    position: relative;
+    translate: -20px 10px;
+    scale: 1.2;
+    color: rgb(128, 105, 105);
+    transition: 300ms;
+}
+#men:hover{
+    scale: 1.3;
+    color: rgb(90, 78, 78);
+}
+.material-symbols-outlined{
+    position: relative;
+    translate: 0px 7px ;
+    margin: 0px 10px;
+    color: rgb(24, 22, 22);
+}
+#fle{
+    margin: 0px;
+    background-image: url(./121376-abstract-light-grey-texture-background-design.jpg);
+    color: rgb(106, 87, 87);
+    width: 200px;
+    height: 100vh;
+    position: relative;
+    translate: -253px -30px;
+    display: flex;
+    flex-direction: column;
+    transition: 500ms ease-in-out;
+    font-family: 'Exo 2', sans-serif;
+    box-shadow: 1px 1px 10px grey;
+}
+#barr{
+    opacity: 0;
+    transition: 1s;
+}
+#barr:checked ~ #fle{
+    translate: 0px -30px;
+}
+#rat{
+    text-align: center;
+    color: #473a3a;
+    font-size: 1.8em;
+    margin: 0px 0px 10px 0px;
+    padding:10px 0px 10px 0px;
+    border-bottom: solid 2px grey;
+    box-shadow: 0px 0px 2px grey;
+}
+#cross{
+    translate: 10px 3px ;
+    transition: 400ms;
+    color: rgb(92, 99, 99);
+}
+#cross:hover{
+    scale: 1.05;
+    color:  rgb(46, 44, 44);
+}
+.para{
+    margin:2px 0px 5px 1px;
+    padding: 0px 0px 8px 0px;
+    transition: 100ms;
+    width: 99.8%;
+}
+.para:hover{
+    box-shadow: 0px 0px 2px grey,0px 0px 2px grey;
+}
